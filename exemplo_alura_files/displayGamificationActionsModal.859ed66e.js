@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$.get("/show-rank-actions-modal",function(t){$("#actions-modal-content").html(t)})});
