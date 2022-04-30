@@ -35,7 +35,7 @@
    <!-- Criando um menu do tipo Navbar na nossa página-->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="../frontend/imagens/logogama.png" width="160px" height="40px" ></a>
+      <a class="navbar-brand" href="#"><img src="../frontend/imagens/logogama.png" width="37px" height="50px" ></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,10 +49,10 @@
               PARA PESSOAS
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Gama Station<br>(Plataforma)</a></li>
-              <li><a class="dropdown-item" href="#">Desenvolvimento Web<br><b>(NOVA TURMA)</b></a></li>
-              <li><a class="dropdown-item" href="#">Product Design<br><b>(NOVA TURMA)</b></a></li>
-              <li><a class="dropdown-item" href="#">Product Manager(Gama Station)</a></li>
+              <li><a class="dropdown-item" href="#">Srs. Pais<br></a></li>
+              <li><a class="dropdown-item" href="#">Crianças<br><b>Vídeos / Games</b></a></li>
+              <li><a class="dropdown-item" href="#">Parceiros<br></a></li>
+              <li><a class="dropdown-item" href="#">Colaboradores</a></li>
             </ul>
           </li>
 
@@ -87,15 +87,15 @@
               <div class="carousel-item">
                 <div class="row">
                     <div class="col-6">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/YmfBy9mihL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+                        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tdyor3bgw_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
         
                     </div>
                     <div class="col-6">
                         <h1>OLÁ, SOMOS A<br>
-                            GAMA ACADEMY!</h1>
-                        <p><b>Transformamos o <span class="span2">mercado digital</span> com educação prática, desafiando o <br>
-                            status quo nas áreas de <span class="span1">programação, design, marketing e vendas.</span></b></p>
+                            "Entertainment a Child"!</h1>
+                        <p><b>Através da nossa plataforma interativa e personalizada com<span class="span2"> recompensas divertida</span>  as crianças aprendem brincando.
+
                     </div>
                 </div>
               </div>
@@ -113,26 +113,48 @@
 
     </div>
 
-    <div class="row" align="center">
-        <br>
-        <h3>Preencha o nosso formulário de oportunidades</h3>
-        <br>
-    </div>
+    
     <!-- Construindo um formulário com BootStrap-->
-    <div class="row">
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Endereço de Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o seu email">
-              
+    <div class="container" style="margin-top: 85px; margin-bottom: 55px;">
+      <div class="row">
+        <div class="col-sm-6 p-5 text-center" style="margin-top: 10px;">
+          <h2><b>Entre em contato com a gente!</b></h2>
+          <p class="text-justify">Envie agora sua mensagem para o "Entertainment a Child". Basta preencher suas informações
+            pessoais ao lado e deixar a mensagem que deseja! Entraremos em contato pelo o e-mail informado.</p>
+          <img src="../frontend/imagens/contato-quantosobra.png" class="img-fluid background-shadow p-3">
+    
+        </div>
+    
+        <div class="col-sm-6" style="margin-top: 20px">
+          <div class="shadow p-5">
+            <div class="text-center">
+              <h3>Mensagem</h3>
+              <hr />
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite a sua senha">
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-
+            <form>
+              <div class="form-group">
+                <label for="nomeCompleto">Nome Completo</label>
+                <input type="text" class="form-control" id="nomeCompleto" placeholder="Nome Sobrenome">
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="text" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+              </div>
+              <div class="form-group">
+                <label for="endEmail">Endereço de Email</label>
+                <input type="email" class="form-control" id="sendEmail" required placeholder="email@email.com">
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Deixe sua mensagem</label>
+                <textarea class="form-control" id="mensagem" required rows="3"></textarea>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-info" type="submit" id="enviar">Enviar Mensagem</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Quebra de linha-->
     <div class="row">
